@@ -1,0 +1,121 @@
+body {
+    font-family:'Chilanka';
+    background-image: linear-gradient(to right,rgb(168, 156, 156),rgb(243, 234, 234));
+    /*mudar cor*/
+}
+h4{
+    font-family: 'Chilanka';
+    text-align: center;
+    float: right;
+    margin: 0 0 10px 10px;    
+}
+.box{
+    position: absolute;
+    top:50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;  
+    /*Inserir width 50% - verificar tamanhos*/ 
+    color:white; 
+}
+
+fieldset{
+    position:relative;
+    border: 3px solid rgb(196, 28, 28);
+    width: 320px;
+    height: auto;
+    margin-top: 10px;
+    
+}
+legend{
+    border: 1px solid rgb(196, 28, 28);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(196, 28, 28);
+    border-radius: 6px;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    outline:none;
+    color:white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 0px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5px;
+}
+.inputUser:focus~.labelInput,
+.inputUser:valid~.labelInput{
+    top: -20px;
+    font-size: 12px;
+    font-weight: bold;
+    color:white;
+}
+#data_nascimento{
+    border: none;
+    padding: 4px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+}
+#submit{
+    background-image: rgb(194, 28, 28);
+    background-color:rgb(194, 28, 28);
+    font-family: 'Chilanka';
+    font-weight: bold;
+    width: 100%;
+    border:none;
+    padding: 15px;
+    color:white;
+    font-size: 15px;
+    cursor:pointer;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-image: linear-gradient(to right,rgb(34, 102, 28),rgb(51, 180, 11));
+    font-family: 'Chilanka';
+}
+.conteudo{
+    display: table;
+}
+.texto{
+    position: absolute;
+    font-family: "Chilanka";
+    font-weight: bold;
+    font-size: 30px;
+    margin: 8px;
+    padding: 15px;
+    margin-left: 11%;
+}
+#img1{
+
+    position:absolute;
+	left:52%;
+	top:16%;
+	margin-left:-8%;
+	margin-top:-3%;
+    width: 600px;
+    height: auto
+}  
+#img2{
+
+    position:absolute;
+	left:47%;
+	top:82%;
+	margin-left:-8%;
+	margin-top:-3%;
+    width: 740px;
+    height: auto;
+}
